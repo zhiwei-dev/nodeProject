@@ -1,4 +1,4 @@
-use sg_user;
+use sg_user;//database
 
 DROP PROCEDURE IF EXISTS schema_xixin_change_ENTERPRISE_SWITCH;
 
@@ -20,5 +20,4 @@ END IF;
 END;
 
 CALL schema_xixin_change_ENTERPRISE_SWITCH ();
-
 
